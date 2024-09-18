@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100VH;
+    background: linear-gradient(135deg,#F5CE62,#E43603,#E85A19);
+}
+
+
+.container{
+    display: flex;
+    position: relative ;
+}
+.key{
+    border: 1px solid black;
+    align-content: end;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.white-key{
+    background-color: white;
+    width: 50px;
+    height: 200px;
+}
+
+.black-key{
+    width: 25PX;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 0.8em;
+}
+
+
+[data-note='C#4']{
+    left:40px
+}
+
+[data-note='D#4']{
+    left:92px
+}
+[data-note='F#4']{
+    left:192px
+}
+[data-note='G#4']{
+    left:250px
+}
+[data-note='A#4']{
+    left:300px
+}
